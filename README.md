@@ -42,7 +42,6 @@ Los siguientes scripts cargan los componentes personalizados:
 
 **Características:**
 - Uso de `Shadow DOM` para encapsulación de estilos.
-- Diseño responsivo.
 
 ### Menu (menu.js)
 **Función:**
@@ -66,7 +65,7 @@ Los siguientes scripts cargan los componentes personalizados:
 
 ### Footer (footer.js)
 **Función:**
-- Proporciona un pie de página fijo con un diseño moderno.
+- Proporciona un pie de página fijo.
 
 **Características:**
 - Usa `Shadow DOM` para encapsular estilos.
@@ -99,12 +98,9 @@ Los siguientes scripts cargan los componentes personalizados:
 - Encabezados y datos estilizados para mejorar la legibilidad.
 - Diseño limpio y profesional.
 
-## Repositorio
--
-
 ## Requisitos
-- Navegador moderno con soporte para 'Web Components'.
-- abrir el documento con Live Server
+- Navegador con soporte para 'Web Components'.
+- Abrir el documento con Live Server
 
 ## Créditos
 Creado por Adriana Borja.
