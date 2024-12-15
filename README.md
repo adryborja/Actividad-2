@@ -41,7 +41,6 @@ Los siguientes scripts cargan los componentes personalizados:
 - Muestra un encabezado estilizado con un degradado de colores y un título centrado.
 
 **Características:**
-<<<<<<< HEAD
 
 - **Estilos modernos**: Fondo con gradiente, fuente elegante y sombras de texto.
 - **Encapsulación**: Utiliza el Shadow DOM para aislar estilos y estructura.
@@ -49,7 +48,7 @@ Los siguientes scripts cargan los componentes personalizados:
 
 =======
 - Uso de `Shadow DOM` para encapsulación de estilos.
->>>>>>> 5287be5be10c525f91e5ac5a91e4f7556c5787fe
+
 
 ### Menu (menu.js)
 **Función:**
@@ -79,13 +78,11 @@ Los siguientes scripts cargan los componentes personalizados:
 
 
 ### Footer (footer.js)
+
 **Función:**
-<<<<<<< HEAD
 - Proporciona un pie de página fijo con un diseño moderno.
 - Representa el pie de página de una página web. El `CustomFooter` está diseñado para ser fijo en la parte inferior de la ventana y proporcionar información sobre derechos de autor.
-=======
 - Proporciona un pie de página fijo.
->>>>>>> 5287be5be10c525f91e5ac5a91e4f7556c5787fe
 
 **Características:**
 
@@ -128,8 +125,6 @@ Los siguientes scripts cargan los componentes personalizados:
 - Genera dinámicamente una tabla de datos. Este ejemplo utiliza la API `JSONPlaceholder` para cargar información de usuarios ficticios y mostrarla en un diseño limpio y organizado.
 
 **Características:**
-
-<<<<<<< HEAD
 - **Encapsulación**: Utiliza Shadow DOM para aislar estilos y estructura.
 - **Carga dinámica de datos**: Obtiene información de usuarios desde una API externa 'https://jsonplaceholder.typicode.com/users'..
 - **Diseño limpio**: Tabla responsiva con estilos básicos y personalizables.
@@ -138,10 +133,9 @@ Los siguientes scripts cargan los componentes personalizados:
 
 ## Requisitos
 - Navegador moderno con soporte para 'Web Components'.
-=======
+
 ## Requisitos
 - Navegador con soporte para 'Web Components'.
->>>>>>> 5287be5be10c525f91e5ac5a91e4f7556c5787fe
 - Abrir el documento con Live Server
 
 ## Créditos
