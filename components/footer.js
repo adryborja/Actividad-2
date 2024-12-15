@@ -14,8 +14,9 @@ class CustomFooter extends HTMLElement {
             font-weight: bold;
             position: fixed;
             bottom: 0;
-            left: 0;
-            width: 100%;
+            left: 8px;
+            right: 8px;
+            width: auto%;
             margin: 0;
             box-sizing: border-box;
             

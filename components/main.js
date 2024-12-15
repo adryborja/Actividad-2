@@ -5,7 +5,7 @@ class MainComponent extends HTMLElement {
     const template = document.createElement('template');
     template.innerHTML = `
       <style>
-      
+          
         main {
           padding: 2em;
           min-height: calc(100vh - 180px);
@@ -16,7 +16,7 @@ class MainComponent extends HTMLElement {
           font-family: 'Poppins', sans-serif;
           margin: 0;
           width: 100%;
-          box-sizing: border-box; /* Incluye padding y bordes en el tamaño total */
+          box-sizing: border-box; 
         }
 
         .welcome {
@@ -45,6 +45,17 @@ class MainComponent extends HTMLElement {
           animation: fadeIn 1.5s ease-in-out forwards;
           animation-delay: 0.5s; /* Retraso para que la descripción aparezca después del título */
         }
+
+        img {
+          width: 200px;
+          margin-top: 20px;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+          opacity: 0;
+          transform: translateY(-20px);
+          animation: fadeIn 1.5s ease-in-out forwards;
+        }
+
       </style>
       <main>
         <slot></slot> <!-- Slot para contenido dinámico -->
@@ -91,8 +102,14 @@ class MainComponent extends HTMLElement {
         description.textContent =
           'Descubre cómo los componentes personalizados pueden mejorar tu experiencia web.';
 
+        const image = document.createElement('img');
+        image.src = 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'; // Imagen pública
+        image.alt = 'Componente web';
+
         slot.appendChild(welcome);
         slot.appendChild(description);
+        slot.appendChild(image);
+
         return; // Finaliza para evitar añadir más contenido
     }
 
